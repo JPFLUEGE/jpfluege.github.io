@@ -1,6 +1,7 @@
 .container-projectlist {
     display: flex;
     justify-content: center;
+    min-height: 550px;
 }
 
 .container-projectlist ul {
@@ -13,7 +14,7 @@
 }
 
 .container-projectlist ul li {
-    width: 400px;
+    width: 370px;
 }
 
 @media only screen and (max-width: 1220px) {

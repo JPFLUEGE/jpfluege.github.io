@@ -14,7 +14,8 @@ class About extends React.Component {
                         <li>favorite color black</li>
                         <li>analytical</li>
                         <li>minimalist</li>
-                        <li>remote</li>
+                        <li>nutritional engineering</li>
+                        <li>remote first</li>
                         <li>UI/UX</li>
                         <li>self-learner</li>
                         <li>sports</li>

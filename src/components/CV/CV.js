@@ -14,10 +14,19 @@ class CV extends React.Component {
                 <div className="cv">
                     <h4>Work Experience</h4>
                     <ul className="experience">
+                    <li className="bd">
+                            <div className="head">
+                            <h5>Business Consultant Data & AI</h5>
+                            <p className="dates">January 2025 - present</p>
+                            </div>
+                            <ul>
+                                <li>Deliver business value through advanced analytics, partnering with optimization, and data science experts to answer complex business questions.Deliver business value through advanced analytics, partnering with optimization, and data science experts to answer complex business questions.</li>
+                            </ul>
+                        </li>
                         <li className="bd">
                             <div className="head">
-                            <h5>Business Data Analyst, Terminal Handling</h5>
-                            <p className="dates">December 2021 - present</p>
+                            <h5>Business Data Analyst</h5>
+                            <p className="dates">December 2021 - January 2025</p>
                             </div>
                             <ul>
                                 <li>Implemented Power BI dashboard reporting solutions to generate operational and financial reports for two departments</li>
@@ -29,7 +38,7 @@ class CV extends React.Component {
                         </li>
                         <li className="pp">
                             <div className="head">
-                                <h5>Customer Process Manager, Business Services</h5>
+                                <h5>Process & Project Manager</h5>
                                 <p className="dates">September 2016 - December 2021</p>
                             </div>
                             <ul>
@@ -42,7 +51,7 @@ class CV extends React.Component {
                         </li>
                         <li className="st">
                             <div className="head">
-                                <h5>Software expert trainer</h5>
+                                <h5>Expert trainer</h5>
                                 <p className="dates">Februar 2015 - September 2016</p>
                             </div>
                             <ul>

@@ -7,6 +7,9 @@
     --quicksand: 'Quicksand', sans-serif;
 }
 
+.container-background {
+  min-height: 100vh
+}
 
 li {
     list-style: none;

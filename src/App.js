@@ -37,36 +37,36 @@ class App extends React.Component {
   projects = [
     {
       id: 0,
-      name: "Near real-time Power BI reports",
-      scope: "Data",
+      name: "Power BI reports (Near real-time)",
+      scope: "Analytics engineering",
       lang: "Python, SQL",
       tech: "Python, Azure Cloud, Power BI, SQL, Postgres",
       href: "https://github.com/JPFLUEGE/Near-real-time-reporting-Power-BI",
-      vidSrc: "",
+      vidSrc: "https://app.powerbi.com/view?r=eyJrIjoiNzVjOGI5M2QtN2E4NC00YjY2LThlNmEtOTA3NmIxMDQyMDM5IiwidCI6Ijc2MzM1M2FjLTFiZWMtNDQyMi04NGIzLWYwMGQyMTNkOTRkOSJ9",
       explanation: "Created a near real-time Power BI report that visualizes data from an amusement park. The report is automatically updated every few minutes and provides insights into the park's waiting times.",
       learning: "Azure Cloud, Postgres, Python"
     },
     {
       id: 1,
-      name: "Streamlit report",
-      scope: "Data",
+      name: "Streamlit report (web app)",
+      scope: "Analytics engineering",
       lang: "Python",
       tech: "Python, Streamlit, API",
       href: "https://github.com/JPFLUEGE/streamlit_amusement_park_api",
-      vidSrc: "",
+      vidSrc: "https://parks-wt.streamlit.app/",
       explanation: "Created a near real-time Streamlit app that allows users to explore the API of an amusement park. The app provides a user-friendly interface for interacting with the API and visualizing data.",
       learning: "Reporting with Python/Streamlit"
     },
     {
       id: 2,
-      name: "SQL challenge",
-      scope: "Data",
+      name: "8-weeks SQL challenge",
+      scope: "Analytics engineering",
       lang: "SQL",
-      tech: "SQL, API",
+      tech: "SQL, Postgres",
       href: "https://www.linkedin.com/posts/julian-m-pflueger_after-several-years-of-self-studying-various-activity-7309220922446512128-N5F2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
       vidSrc: "",
-      explanation: "Completed datacamps career track for SQL. Solved 200+ SQL challenges on Stratascratch in a row",
-      learning: "SQL for data analysis and engineering"
+      explanation: "Completed datacamps career track plus additional courses for SQL. Solved 200+ SQL challenges on Stratascratch",
+      learning: "Intensive SQL for data analysis and engineering"
     },
     {
     id: 3,
