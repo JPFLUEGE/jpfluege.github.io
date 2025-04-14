@@ -34,8 +34,42 @@ class App extends React.Component {
     this.handleChangeTextarea = this.handleChangeTextarea.bind(this);
   };
 
-  projects = [{
-    id: 1,
+  projects = [
+    {
+      id: 0,
+      name: "Near real-time Power BI reports",
+      scope: "Data",
+      lang: "Python, SQL",
+      tech: "Python, Azure Cloud, Power BI, SQL, Postgres",
+      href: "https://github.com/JPFLUEGE/Near-real-time-reporting-Power-BI",
+      vidSrc: "",
+      explanation: "Created a near real-time Power BI report that visualizes data from an amusement park. The report is automatically updated every few minutes and provides insights into the park's waiting times.",
+      learning: "Azure Cloud, Postgres, Python"
+    },
+    {
+      id: 1,
+      name: "Streamlit report",
+      scope: "Data",
+      lang: "Python",
+      tech: "Python, Streamlit, API",
+      href: "https://github.com/JPFLUEGE/streamlit_amusement_park_api",
+      vidSrc: "",
+      explanation: "Created a near real-time Streamlit app that allows users to explore the API of an amusement park. The app provides a user-friendly interface for interacting with the API and visualizing data.",
+      learning: "Reporting with Python/Streamlit"
+    },
+    {
+      id: 2,
+      name: "SQL challenge",
+      scope: "Data",
+      lang: "SQL",
+      tech: "SQL, API",
+      href: "https://www.linkedin.com/posts/julian-m-pflueger_after-several-years-of-self-studying-various-activity-7309220922446512128-N5F2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
+      vidSrc: "",
+      explanation: "Completed datacamps career track for SQL. Solved 200+ SQL challenges on Stratascratch in a row",
+      learning: "SQL for data analysis and engineering"
+    },
+    {
+    id: 3,
     name: "Portfolio Website",
     scope: "Frontend Web Development",
     lang: "HTML, CSS, Javascript",
@@ -46,7 +80,7 @@ class App extends React.Component {
     learning: "Reusing learned frontend knowlegde"
   },
   {
-    id: 2,
+    id: 4,
     name: "Song Recommendations",
     scope: "Full Stack Web Development",
     lang: "HTML, CSS, Javascript",
@@ -57,7 +91,7 @@ class App extends React.Component {
     learning: "How the backend, APIs and queries work; how OAuth and cookies validate user logins"
   },
   {
-    id: 3,
+    id: 5,
     name: "Restaurant Search",
     scope: "Frontend Web Development",
     lang: "HTML, CSS, Javascript",
@@ -67,6 +101,10 @@ class App extends React.Component {
     explanation: "Search by name or location for a restaurant and sort it based on 'Best Match', 'Rating' or 'Most Reviewed'. API used: Yelp",
     learning: "How API requests work"
   }]
+
+
+
+
 
   getProjects() {
     this.setState({ Projects: this.projects})
