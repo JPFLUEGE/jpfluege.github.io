@@ -34,38 +34,38 @@ class App extends React.Component {
     this.handleChangeTextarea = this.handleChangeTextarea.bind(this);
   };
 
-  projects = [
+projects = [
     {
       id: 0,
-      name: "Power BI reports (Near real-time)",
+      name: "Near real-time Power BI reports",
       scope: "Analytics engineering",
       lang: "Python, SQL",
       tech: "Python, Azure Cloud, Power BI, SQL, Postgres",
-      href: "https://github.com/JPFLUEGE/Near-real-time-reporting-Power-BI",
-      vidSrc: "https://app.powerbi.com/view?r=eyJrIjoiNzVjOGI5M2QtN2E4NC00YjY2LThlNmEtOTA3NmIxMDQyMDM5IiwidCI6Ijc2MzM1M2FjLTFiZWMtNDQyMi04NGIzLWYwMGQyMTNkOTRkOSJ9",
-      explanation: "Created a near real-time Power BI report that visualizes data from an amusement park. The report is automatically updated every few minutes and provides insights into the park's waiting times.",
-      learning: "Azure Cloud, Postgres, Python"
+      href: "https://app.powerbi.com/view?r=eyJrIjoiMTI2NmUwMmMtZDI1NS00OWIzLWFlMjQtOTdkOWZhYTMzMTQ2IiwidCI6Ijc2MzM1M2FjLTFiZWMtNDQyMi04NGIzLWYwMGQyMTNkOTRkOSJ9",
+      vidSrc: "https://www.linkedin.com/posts/julian-m-pflueger_easter-break-is-here-and-youre-going-activity-7317888992740356098-oHvh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
+      explanation: "Created a data pipeline to extract data from an API and fed it into a database or a Power BI dataset directly to achieve a near real-time reporting.",
+      learning: "Azure Cloud, Postgres, Python, Streaming Dataset, Data Engineering"
     },
     {
       id: 1,
-      name: "Streamlit report (web app)",
+      name: "Streamlit report (data web app)",
       scope: "Analytics engineering",
       lang: "Python",
       tech: "Python, Streamlit, API",
-      href: "https://github.com/JPFLUEGE/streamlit_amusement_park_api",
-      vidSrc: "https://parks-wt.streamlit.app/",
-      explanation: "Created a near real-time Streamlit app that allows users to explore the API of an amusement park. The app provides a user-friendly interface for interacting with the API and visualizing data.",
+      href: "https://parks-wt.streamlit.app/",
+      vidSrc: "https://www.linkedin.com/posts/julian-m-pflueger_easter-break-is-here-and-youre-going-activity-7317888992740356098-oHvh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
+      explanation: "Created a near real-time Streamlit data web app that allows users to explore current waiting times at amusement parks across Europe.",
       learning: "Reporting with Python/Streamlit"
     },
     {
       id: 2,
-      name: "8-weeks SQL challenge",
+      name: "8-weeks+ SQL challenge",
       scope: "Analytics engineering",
       lang: "SQL",
       tech: "SQL, Postgres",
       href: "https://www.linkedin.com/posts/julian-m-pflueger_after-several-years-of-self-studying-various-activity-7309220922446512128-N5F2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
       vidSrc: "",
-      explanation: "Completed datacamps career track plus additional courses for SQL. Solved 200+ SQL challenges on Stratascratch",
+      explanation: "Completed datacamps career track plus additional courses for SQL. Applied the gained knowledge on 200+ real-world SQL interview questions on Stratascratch",
       learning: "Intensive SQL for data analysis and engineering"
     },
     {
