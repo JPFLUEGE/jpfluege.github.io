@@ -6,7 +6,7 @@ class Landing extends React.Component {
  
     render() { 
         return (<div className="container-landing">
-            <h1><Link to="/">Julian Pflueger</Link></h1>
+            <h1><Link to="/">Julian Pflüger</Link></h1>
             <ul>
                 <Link to="cv"><li>Data Analyst</li></Link>
                 <Link to="/"><li>Analytics Engineer</li></Link>
