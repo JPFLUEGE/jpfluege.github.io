@@ -1,5 +1,5 @@
 .container-landing {
-    padding-top: 180px;
+    padding-top: 50px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: columN;
@@ -9,7 +9,6 @@
     color: var(--custom-white-unfocus);
     padding-bottom: 30px;
     height: 30%;
-    min-height: 280px;
 }
 
 .container-landing h1 {
@@ -22,8 +21,12 @@
     align-items: center;
     justify-content: center;
     font-family: var(--quicksand);
-    padding-bottom: 20px;
     text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.container-landing span {
+    font-size: 0.7rem;
 }
 
 .container-landing h1 a {

@@ -35,8 +35,19 @@ class App extends React.Component {
   };
 
 projects = [
+      {
+      id: 2,
+      name: "www.Totally-Wrapped.com",
+      scope: "Full Stack Web Development & Analytics Engineering",
+      lang: "Python, HTML, CSS, Javascript",
+      tech: "FastAPI (backend), Next.js (Frontend), VPS (Linux), NGNIX (Routing)",
+      href: "https://www.totally-wrapped.com",
+      vidSrc: "",
+      explanation: "What started as a simple Python script to analyze my own Spotify data turned into a full-stack web app: www.totally-wrapped.com. It’s live on a VPS and lets anyone upload and explore their complete Spotify listening history.",
+      learning: "Pandas, FastAPI, (re-)learning web development with Next.js, routing with NGNIX, self-hosting on a VPS"
+    },
     {
-      id: 0,
+      id: 3,
       name: "Near real-time Power BI reports",
       scope: "Analytics engineering",
       lang: "Python, SQL",
@@ -47,7 +58,7 @@ projects = [
       learning: "Azure Cloud, Postgres, Python, Streaming Dataset, Data Engineering"
     },
     {
-      id: 1,
+      id: 4,
       name: "Streamlit report (data web app)",
       scope: "Analytics engineering",
       lang: "Python",
@@ -58,7 +69,7 @@ projects = [
       learning: "Reporting with Python/Streamlit"
     },
     {
-      id: 2,
+      id: 5,
       name: "8-weeks+ SQL challenge",
       scope: "Analytics engineering",
       lang: "SQL",
@@ -69,7 +80,7 @@ projects = [
       learning: "Intensive SQL for data analysis and engineering"
     },
     {
-    id: 3,
+    id: 6,
     name: "Portfolio Website",
     scope: "Frontend Web Development",
     lang: "HTML, CSS, Javascript",
@@ -80,7 +91,7 @@ projects = [
     learning: "Reusing learned frontend knowlegde"
   },
   {
-    id: 4,
+    id: 7,
     name: "Song Recommendations",
     scope: "Full Stack Web Development",
     lang: "HTML, CSS, Javascript",
@@ -91,7 +102,7 @@ projects = [
     learning: "How the backend, APIs and queries work; how OAuth and cookies validate user logins"
   },
   {
-    id: 5,
+    id: 8,
     name: "Restaurant Search",
     scope: "Frontend Web Development",
     lang: "HTML, CSS, Javascript",

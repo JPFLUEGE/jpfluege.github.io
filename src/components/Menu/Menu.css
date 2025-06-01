@@ -67,6 +67,12 @@
     opacity: 1;
 }
 
+.temp {
+    font-size: 0.7rem;
+    color:white;
+    text-align: center;
+}
+
 .container-menu .dev {
     border-radius: 100px;
 }

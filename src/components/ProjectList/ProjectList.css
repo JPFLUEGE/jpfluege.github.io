@@ -1,14 +1,12 @@
 .container-projectlist {
     display: flex;
     justify-content: center;
-    min-height: 550px;
 }
 
 .container-projectlist ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px;
-    min-height: 250px;
+    grid-template-rows: 300px 300px 300px;
     justify-content: center;
     align-items: center;
 }

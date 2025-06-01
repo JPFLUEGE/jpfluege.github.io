@@ -8,9 +8,9 @@ class Landing extends React.Component {
         return (<div className="container-landing">
             <h1><Link to="/">Julian Pflüger</Link></h1>
             <ul>
-                <Link to="cv"><li>Data Analyst</li></Link>
+                <Link to="/"><li>Data Analyst</li></Link>
                 <Link to="/"><li>Analytics Engineer</li></Link>
-                <Link to="cv"><li>Business Analyst</li></Link>
+                <Link to="/"><li>Business Analyst</li></Link>
             </ul>
         </div>);
     }
