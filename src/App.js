@@ -42,7 +42,7 @@ projects = [
       lang: "Python, HTML, CSS, Javascript",
       tech: "FastAPI (backend), Next.js (Frontend), VPS (Linux), NGNIX (Routing)",
       href: "https://www.totally-wrapped.com",
-      vidSrc: "",
+      vidSrc: "https://www.youtube.com/watch?v=N4FeXEl286k",
       explanation: "What started as a simple Python script to analyze my own Spotify data turned into a full-stack web app: www.totally-wrapped.com. It’s live on a VPS and lets anyone upload and explore their complete Spotify listening history.",
       learning: "Pandas, FastAPI, (re-)learning web development with Next.js, routing with NGNIX, self-hosting on a VPS"
     },
