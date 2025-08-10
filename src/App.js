@@ -36,6 +36,17 @@ class App extends React.Component {
 
 projects = [
       {
+      id: 1,
+      name: "Python (Pandas & PySpark) challenge",
+      scope: "Analytics Engineering",
+      lang: "Python",
+      tech: "Pandas for data manipulation, PySpark for big data processing",
+      href: "https://platform.stratascratch.com/user/JulianP",
+      vidSrc: "",
+      explanation: "Completed datacamps courses for Pandas and PySpark. Applied the gained knowledge on 150+ real-world interview questions on Stratascratch for further practice",
+      learning: "SQL, Pandas for regular data processing, PySpark for big data"
+      },
+      {
       id: 2,
       name: "www.Totally-Wrapped.com",
       scope: "Full Stack Web Development & Analytics Engineering",
@@ -76,7 +87,7 @@ projects = [
       tech: "SQL, Postgres",
       href: "https://www.linkedin.com/posts/julian-m-pflueger_after-several-years-of-self-studying-various-activity-7309220922446512128-N5F2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
       vidSrc: "",
-      explanation: "Completed datacamps career track plus additional courses for SQL. Applied the gained knowledge on 200+ real-world SQL interview questions on Stratascratch",
+      explanation: "Completed datacamps career track plus additional courses for SQL. Applied the gained knowledge on 200+ real-world SQL interview questions on Stratascratch for further practice",
       learning: "Intensive SQL for data analysis and engineering"
     },
     {

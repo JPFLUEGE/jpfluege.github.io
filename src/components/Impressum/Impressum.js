@@ -9,8 +9,8 @@ class Impressum extends React.Component {
 
             <h4>Angaben gemäß § 5 TMG</h4>
             <p>Julian Pflüger<br />
-                Steinweglein 6<br />
-                96450 Coburg</p>
+                Am Sportplatz 23<br />
+                96487 Dörfles-Esbach</p>
 
             <h4>Kontakt</h4>
             <p>Telefon: +4915233136064<br />
@@ -24,8 +24,8 @@ class Impressum extends React.Component {
 
             <h4>Information according to § 5 TMG</h4>
             <p>Julian Pflüger<br />
-                Steinweglein 6<br />
-                96450 Coburg</p>
+                Am Sportplatz 23<br />
+                96487 Dörfles-Esbach</p>
 
             <h4>Contact</h4>
             <p>Phone: +4915233136064<br />
