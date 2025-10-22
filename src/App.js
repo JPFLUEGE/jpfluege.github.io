@@ -35,6 +35,17 @@ class App extends React.Component {
   };
 
 projects = [
+    {
+      id: 0,
+      name: "www.julipsen.com",
+      scope: "Web Development",
+      lang: "HTML, CSS, Javascript",
+      tech: "Next.js (Frontend), next-int (internationalization), VPS (Linux), NGNIX (Routing)",
+      href: "https://julipsen.com",
+      vidSrc: "",
+      explanation: "Built new personal page with Next.js instead of react for server side rendering (better SEO) since blog content will be added. Also allows for further customization as well as to implement backend functionalities",
+      learning: "Next.js, internationalization with next-int,"
+      },
       {
       id: 1,
       name: "Python (Pandas & PySpark) challenge",

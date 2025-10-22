@@ -2,13 +2,12 @@
     display: flex;
     justify-content: center;
 }
-
 .container-projectlist ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px 300px;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-projectlist ul li {
@@ -17,14 +16,12 @@
 
 @media only screen and (max-width: 1220px) {
     .container-projectlist ul {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 300px 300px;
+
     }
 }
 
 @media only screen and (max-width: 850px) {
     .container-projectlist ul {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 320px;
+        display: block;
     }
 }
