@@ -40,11 +40,11 @@ projects = [
       name: "www.julipsen.com",
       scope: "Web Development",
       lang: "HTML, CSS, Javascript",
-      tech: "Next.js (Frontend), next-int (internationalization), VPS (Linux), NGNIX (Routing)",
+      tech: "Next.js (Frontend), next-int (internationalization), VPS (Linux), NGNIX (Routing), GitHub Actions (CI/CD)",
       href: "https://julipsen.com",
       vidSrc: "",
       explanation: "Built new personal page with Next.js instead of react for server side rendering (better SEO) since blog content will be added. Also allows for further customization as well as to implement backend functionalities",
-      learning: "Next.js, internationalization with next-int,"
+      learning: "Next.js, internationalization with next-int, GitHub Actions (mini CI/CD), routing with NGNIX, self-hosting on a VPS,"
       },
       {
       id: 1,
@@ -62,11 +62,11 @@ projects = [
       name: "www.Totally-Wrapped.com",
       scope: "Full Stack Web Development & Analytics Engineering",
       lang: "Python, HTML, CSS, Javascript",
-      tech: "FastAPI (backend), Next.js (Frontend), VPS (Linux), NGNIX (Routing)",
+      tech: "FastAPI (backend), Next.js (Frontend), VPS (Linux), NGNIX (Routing), GitHub Actions (CI/CD)",
       href: "https://www.totally-wrapped.com",
       vidSrc: "https://www.youtube.com/watch?v=N4FeXEl286k",
       explanation: "What started as a simple Python script to analyze my own Spotify data turned into a full-stack web app: www.totally-wrapped.com. It’s live on a VPS and lets anyone upload and explore their complete Spotify listening history.",
-      learning: "Pandas, FastAPI, (re-)learning web development with Next.js, routing with NGNIX, self-hosting on a VPS"
+      learning: "Pandas, FastAPI, (re-)learning web development with Next.js, GitHub Actions (mini CI/CD), routing with NGNIX, self-hosting on a VPS"
     },
     {
       id: 3,
