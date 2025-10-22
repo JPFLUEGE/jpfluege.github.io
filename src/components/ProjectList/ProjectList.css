@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 1220px) {
     .container-projectlist ul {
-
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
