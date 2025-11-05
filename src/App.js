@@ -35,6 +35,17 @@ class App extends React.Component {
   };
 
 projects = [
+      {
+      id: -1,
+      name: "Power BI ETF Analysis",
+      scope: "Data Analytics",
+      lang: "DAX",
+      tech: "Power BI",
+      href: "https://www.julipsen.com/en/datajp/powerbi-etf-analysis",
+      vidSrc: "",
+      explanation: "Created an interactive Power BI report analyzing three major ETFs - MSCI World, S&P 500, and NASDAQ - by weight distribution across individual holdings, sectors, and regions",
+      learning: "Re-apply Power BI knowledge"
+      },
     {
       id: 0,
       name: "www.julipsen.com",
@@ -44,7 +55,7 @@ projects = [
       href: "https://julipsen.com",
       vidSrc: "",
       explanation: "Built new personal page with Next.js instead of react for server side rendering (better SEO) since blog content will be added. Also allows for further customization as well as to implement backend functionalities",
-      learning: "Next.js, internationalization with next-int, GitHub Actions (mini CI/CD), routing with NGNIX, self-hosting on a VPS,"
+      learning: "Next.js, internationalization with next-int, GitHub Actions (mini CI/CD), routing with NGNIX, self-hosting on a VPS"
       },
       {
       id: 1,
@@ -72,7 +83,7 @@ projects = [
       id: 3,
       name: "Near real-time Power BI reports",
       scope: "Analytics engineering",
-      lang: "Python, SQL",
+      lang: "Python, SQL, DAX",
       tech: "Python, Azure Cloud, Power BI, SQL, Postgres",
       href: "https://app.powerbi.com/view?r=eyJrIjoiMTI2NmUwMmMtZDI1NS00OWIzLWFlMjQtOTdkOWZhYTMzMTQ2IiwidCI6Ijc2MzM1M2FjLTFiZWMtNDQyMi04NGIzLWYwMGQyMTNkOTRkOSJ9",
       vidSrc: "https://www.linkedin.com/posts/julian-m-pflueger_easter-break-is-here-and-youre-going-activity-7317888992740356098-oHvh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIhsRoBpBmYAS1lRus8_DPnaQW7RQY6vYs",
