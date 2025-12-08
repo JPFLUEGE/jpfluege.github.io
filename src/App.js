@@ -36,6 +36,17 @@ class App extends React.Component {
 
 projects = [
       {
+      id: -2,
+      name: "Hybrid RAG System",
+      scope: "AI Engineering",
+      lang: "HTML, CSS, JavaScript, Python",
+      tech: "LLM (Gemini), Subabase, FastAPI, VPS",
+      href: "https://www.julipsen.com/KAECYen.pdf",
+      vidSrc: "",
+      explanation: "First in our category, second overall - CODEBURG Hackathon. AI assistant for technical documentation: error codes via input or photo, questions via text or voice. I built the FastAPI-based frontend and backend and created the multistage LLM workflow. The team handled design, presentation prep, and the Supabase database including data preprocessing.",
+      learning: "Retrieval-Augmented Generation"
+      },
+      {
       id: -1,
       name: "Power BI ETF Analysis",
       scope: "Data Analytics",
